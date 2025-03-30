@@ -2,23 +2,12 @@
 
 * {
  padding: 0;
-  margin: 0 auto;
+  margin: 0;
   box-sizing: border-box;
   border: none;
   outline: none;
-  text-align: center;
   text-decoration: none;
   scroll-behavior: smooth;
   list-style: none;
   font-family: 'besley',serif;
-}
-
-*::selection{
-color:white;
-background:blue  
-}
-
-body{
-  background:black;
-  color: #fff;
 }
