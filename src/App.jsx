@@ -1,12 +1,12 @@
 import "./App.css";
-import Navbar from "./layouts/Navbar";
+import DashboardLayout from "./layouts/DashboardLayout";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <h1>WELCOME TO THE TEXTILE INDUSTRY SOFTWARE PROJECT</h1>
-      <Navbar />
-    </>
+    <BrowserRouter>
+     <DashboardLayout />
+    </BrowserRouter>
   );
 }
 
