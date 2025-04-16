@@ -1,0 +1,17 @@
+.catalogue-image {
+  height: 300px;
+  object-fit: cover;
+  filter: brightness(80%);
+}
+
+.catalogue-content {
+  background-color: rgba(0, 0, 0, 0.2);
+  position: relative;
+  margin-top: -80px;
+  color: white;
+  padding: 16px;
+  padding-bottom: 0px !important;
+  h3 {
+    letter-spacing: 0.5px;
+  }
+}

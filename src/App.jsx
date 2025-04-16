@@ -1,11 +1,11 @@
 import "./App.css";
-import DashboardLayout from "./layouts/DashboardLayout";
 import { BrowserRouter } from "react-router-dom";
+import Dashboard from "./pages/Dashboard/Dashboard";
 
 function App() {
   return (
     <BrowserRouter>
-     <DashboardLayout />
+     <Dashboard />
     </BrowserRouter>
   );
 }

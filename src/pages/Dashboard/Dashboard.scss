@@ -1,0 +1,13 @@
+.main-content {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  overflow: hidden;
+}
+.sidebar-content {
+    flex: 0 0 250px; 
+}
+.dashboard-content {
+  flex: 1;
+  padding: 20px;
+}
